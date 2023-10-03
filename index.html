@@ -17,7 +17,7 @@
   <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
   <script src='https://code.jquery.com/jquery-3.1.1.min.js' integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=' crossorigin='anonymous'></script>
   <script src='main.js'></script>
-  <title>DESMA28: Interactivity</title>
+  <title>DMA252A: Interactivity</title>
 </head>
 <body>
   <div class='container'>
@@ -34,20 +34,20 @@
       </nav>
 
       <!-- HEADING -->
-      <h1><a href=''>DESMA28: Interactivity</a></h1>
+      <h1><a href=''>DMA252A: Programming Media</a></h1>
 
       <!-- SYLLABUS -->
       <div id='syllabus' class='block' style='display: block'>
         
         <h2>Syllabus</h2>
         <section>
-          Tuesday and Thursday 9–11:50am<br>
+          Tuesday and Thursday 2–4:50pm<br>
           UCLA Broad Art Center 4240
           <br><br>
           Professor: Lauren Lee McCarthy (<a href='mailto:lmccart@ucla.edu'>lmccart@ucla.edu</a>)
           <br>(office hours: Tuesdays 5-6pm, Broad 3246)
           <br><br>
-          TA: Jules Johnston (<a href='mailto:julesjohnston@g.ucla.edu'>julesjohnston@g.ucla.edu</a>)
+          LA: TBD
           <br>(office hours: TBD)<br>
           
         </section>
@@ -74,7 +74,7 @@
         
         <section>
           <h3>Studies</h3>
-          <p>This class is built around six studies, each with a media assignment (reading + videos), a workshop, and a discussion about your finished study on the day that it’s due. Each study derives from the elements above. The final project will push one of the studies further. All studies will be completed in p5.js and are due at the start of class via the <a href="https://docs.google.com/spreadsheets/d/1ePtab7Yj9XtUtuCKWQROELVMLG4Hslk_cwzfOioyHFA/edit?usp=sharing" target="_blank">studies spreadsheet</a>.</p>
+          <p>This class is built around six studies, each with a media assignment (reading + videos), a workshop, and a discussion about your finished study on the day that it’s due. Each study derives from the elements above. The final project will push one of the studies further. All studies will be completed in p5.js and are due at the start of class.</p>
           <p>Studies may be turned in up to one week late for a one letter grade deduction off the grade. Work that is more than one week late will not be accepted. If you are absent, you are expected to turn in studies online by the deadline. It is possible that you may encounter save issues, editor or browser errors, computer crash, etc. It is highly recommended that you regularly click File > Download to save copies of your work in progress as zip files.</p>
 
         </section>
@@ -135,7 +135,7 @@
               <td></td>
               <td>Th 10/5</td>
               <td>
-                Studio<br>
+                Lab<br>
                 DUE: <a onclick="openSection('#studies', 'p1')">Study 1, part 1</a><br>
               </td>
             </tr>
@@ -156,7 +156,8 @@
               <td></td>
               <td>Th 10/12</td>
               <td>
-                Studio
+                Lab<br>
+                DUE: <a onclick="openSection('#studies', 'p2')">Study 2, part 1</a><br>
               </td>
             </tr>
             <tr class='weekspacer'></tr>
@@ -167,7 +168,7 @@
               <td>WEEK 3</td>
               <td>Tu 10/17</td>
               <td>
-                DUE: <a onclick="openSection('#studies', 'p2')">Study 2</a><br>
+                DUE: <a onclick="openSection('#studies', 'p2')">Study 2, part 2</a><br>
                 Assign Study 3
               </td>
             </tr>
@@ -176,7 +177,8 @@
               <td></td>
               <td>Th 10/19</td>
               <td>
-                Studio
+                Lab<br>
+                DUE: <a onclick="openSection('#studies', 'p3')">Study 3, part 2</a><br>
               </td>
             </tr>
             <tr class='weekspacer'></tr>
@@ -186,7 +188,7 @@
               <td>WEEK 4</td>
               <td>Tu 10/24</td>
               <td>
-                DUE: <a onclick="openSection('#studies', 'p3')">Study 3</a><br>
+                DUE: <a onclick="openSection('#studies', 'p3')">Study 3, part 2</a><br>
                 Assign Study 4
               </td>
             </tr>
@@ -195,7 +197,8 @@
               <td></td>
               <td>Th 10/26</td>
               <td>
-                Studio
+                Lab<br>
+                DUE: <a onclick="openSection('#studies', 'p4')">Study 4, part 1</a>
               </td>
             </tr>
             <tr class='weekspacer'></tr>
@@ -205,7 +208,7 @@
               <td>WEEK 5</td>
               <td>Tu 10/31</td>
               <td>
-                DUE: <a onclick="openSection('#studies', 'p4')">Study 4</a><br>
+                DUE: <a onclick="openSection('#studies', 'p4')">Study 4, part 2</a><br>
                 Assign Study 5
               </td>
             </tr>
@@ -214,7 +217,8 @@
               <td></td>
               <td>Th 11/2</td>
               <td>
-                Studio
+                Lab<br>
+                DUE: <a onclick="openSection('#studies', 'p5')">Study 5, part 1</a>
               </td>
             </tr>
             <tr class='weekspacer'></tr>
@@ -224,7 +228,7 @@
               <td>WEEK 6</td>
               <td>Tu 11/7</td>
               <td>
-                DUE: <a onclick="openSection('#studies', 'p5')">Study 5</a><br>
+                DUE: <a onclick="openSection('#studies', 'p5')">Study 5, part 2</a><br>
                 Assign Study 6
               </td>
             </tr>
@@ -232,7 +236,10 @@
             <tr>
               <td></td>
               <td>Th 11/9</td>
-              <td>Studio</td>
+              <td>
+                Lab<br>
+                DUE: <a onclick="openSection('#studies', 'p6')">Study 6, part 1</a>
+              </td>
             </tr>
             <tr class='weekspacer'></tr>
 
@@ -241,7 +248,7 @@
               <td>WEEK 7</td>
               <td>Tu 11/14</td>
               <td>
-                DUE: <a onclick="openSection('#studies', 'p6')">Study 6</a><br>
+                DUE: <a onclick="openSection('#studies', 'p6')">Study 6, part 2</a><br>
                 Assign Final Project
               </td>
             </tr>
@@ -250,7 +257,7 @@
               <td></td>
               <td>Th 11/16</td>
               <td>
-                Studio
+                Lab
               </td>
             </tr>
             <tr class='weekspacer'></tr>
@@ -287,7 +294,7 @@
               <td></td>
               <td>Th 10/30</td>
               <td>
-                Studio
+                Lab
               </td>
             </tr>
             <tr class='weekspacer'></tr>
@@ -297,7 +304,7 @@
               <td>WEEK 10</td>
               <td>Tu 11/5</td>
               <td>   
-                Studio (virtual office hours with Lauren)
+                Studio
               </td>
             </tr>
             <tr class='spacer'></tr>
@@ -310,15 +317,7 @@
             </tr>
             <tr class='weekspacer'></tr>
             
-            <!-- WEEK 10 -->
-            <tr>
-              <td>WEEK 11</td>
-              <td>F 11/15</td>
-              <td>
-                DUE: <a onclick="openSection('#studies', 'p8')">Final Project documentation</a>
-              </td>
-            </tr>
-            <tr class='spacer'></tr>
+            
           </table>
         </section>
       </div>
@@ -328,9 +327,9 @@
         
         <h2>studies</h2>
         <section>
-          <p>Studies are due at the start of class on the date assigned via the <a href='https://docs.google.com/spreadsheets/d/1ePtab7Yj9XtUtuCKWQROELVMLG4Hslk_cwzfOioyHFA/edit#gid=0'>studies spreadsheet</a>. studies may be turned in up to one week late for a one letter grade deduction off the study grade. Work that is more than one week late will not be accepted. If you are absent, you are still expected to turn in studies online by the deadline.</p>
+          <p>Studies are due at the start of class on the date assigned.</p>
 
-          <h3 id='p1'>Study 1: Instruct (DUE 10/10)</h3>
+          <h3 id='p1'>Study 1: Instruct</h3>
           <div id='p1-content' class='toggle' style='display:block;'>
 
             <h4>Media</h4>
@@ -356,13 +355,13 @@
             <h4>Description</h4>
             Part 1 due 10/5:
               <ul>
-                <li>Spend some time looking at instructions or guides for using various technologies. This might mean a setup guide for a piece of technology, cooking instructions, a TikTok video giving advice, an assembly instructions for Ikea furniture, etc. Think broadly about the terms “technology” and “instructions”. Select one and add a link to it in the <a href='https://docs.google.com/spreadsheets/d/1ePtab7Yj9XtUtuCKWQROELVMLG4Hslk_cwzfOioyHFA/edit#gid=0'>studies spreadsheet</a>.</li>
+                <li>Spend some time looking at instructions or guides for using various technologies. This might mean a setup guide for a piece of technology, cooking instructions, a TikTok video giving advice, an assembly instructions for Ikea furniture, etc. Think broadly about the terms “technology” and “instructions”. Bring one or two you like to lab on Thursday.</li>
                 <li>In partners, pick an activity that you both do regularly. Each partner creates a set of instructions for how they perform this activity. Exchange instruction sets and follow them as best you can.</li>
 
               </ul>
             Part 2 due 10/10:
             <ul>
-              <li>Working together, use p5.js to create a visual representation interpreting one, both, or a combination of your instruction sets. Turn your study in via the <a target='_blank' href='https://docs.google.com/spreadsheets/d/1ePtab7Yj9XtUtuCKWQROELVMLG4Hslk_cwzfOioyHFA/edit#gid=0'>studies spreadsheet</a> by 9am on 10/10. Come prepared to share in class.</li>
+              <li>Working together, use p5.js to create a visual representation interpreting one, both, or a combination of your instruction sets. Come prepared to share in class.</li>
             </ul>
           </div>
 
@@ -393,7 +392,7 @@
             
             <p>By 1/16: Write or select a short text (one paragraph or less) that you will read/perform for the class. By 1/23: Based on the text, design and build a virtual mask that you will use to perform the text. Using the <a href='https://editor.p5js.org/lmccart/sketches/rJ3KhWVzV'>provided code template</a>, make your mask react to audio, changing as the volume of your voice changes. This project will be evaluated based on how the face relates to the text, the variation of the mask (how much is changes), the design of the mask, and your performance of it.</p>
 
-            <p>Turn your study in via the <a target='_blank' href='https://docs.google.com/spreadsheets/d/1ePtab7Yj9XtUtuCKWQROELVMLG4Hslk_cwzfOioyHFA/edit#gid=0'>studies spreadsheet</a> by 9am on 1/23. Include the text to be performed as a comment at the top of the code. You will perform your mask in class on 1/23. Rehearse your text performance ahead of time, modulating the volume of your voice as needed to control the mask.</p>
+            <p>You will perform your mask in class on 1/23. Rehearse your text performance ahead of time, modulating the volume of your voice as needed to control the mask.</p>
 
           </div>
 
@@ -640,6 +639,6 @@
       </div>
     </div>
   </div>
-  <div id='updated'>Last updated: <span id='updated_date'></span></div>
+  <!-- <div id='updated'>Last updated: <span id='updated_date'></span></div> -->
 </body>
 </html>

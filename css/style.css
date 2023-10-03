@@ -4,7 +4,7 @@ body {
   font-family: 'Source Sans Pro', input-mono-narrow, sans-serif;
   line-height: 1.4em;
   font-size: 16px;
-  background: #f5ffff;
+  background: #f5efff;
 }
 
 *, *:before, *:after {
@@ -54,6 +54,7 @@ h3, table {
 
 h4 {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 nav ul {
